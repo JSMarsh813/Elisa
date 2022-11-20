@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import MainNavDaisy from "./components/MainNavDaisy";
+import Testing from "./components/Testing"
+import CarouselCharacterImages from "./components/CarouselCharacterImages";
+import AboutEli from "./About";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+ 
+    
+         <AboutEli/>
+   
+          <MainNavDaisy/>
+
+          <CarouselCharacterImages/>
+          <Testing/>
+      
+
+    <div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">
+     
+      <p className="text-3xl text-gray-700 font-bold mb-5">
+        Welcome!
+      </p>
+
+      <p className="text-gray-500 text-lg">
+        React and Tailwind CSS in action
+       
+      </p>
+           
+        
     </div>
+    </div> 
   );
 }
 
