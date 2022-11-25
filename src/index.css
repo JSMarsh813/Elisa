@@ -16,3 +16,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* .dialog-box @media (min-width: 1024px) {
+  .laptop\:text-center { width: 1231px }
+} */
