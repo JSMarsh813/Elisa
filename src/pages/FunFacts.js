@@ -1,10 +1,8 @@
 import React from 'react'
 import MainNavDaisy from "../components/MainNavDaisy"
-import SimpleDialog from '../components/SimpleDialog'
 import LikeDislikeSection from '../components/LikeDislikeSection'
 import HorizontalWithImageBullets from '../components/HorizontalWithImageBullets'
 import CarouselCharacterImages from '../components/CarouselCharacterImages'
-import bardEli from '../images/bardEli.jpg'
 
 function FunFacts(){
 

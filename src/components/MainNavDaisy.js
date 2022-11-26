@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import AboutEli from "../pages/About"
-import FunFacts from "../pages/FunFacts"
 import noiseMenuBackground from "../images/noiseMenuBackground.jpg"
 
 

@@ -30,7 +30,7 @@ function AboutEli(){
                                     }}>      
             </div> 
 
-             <LargeDialog text= {"Elisa Warsong is an excitable Young woman with a fierce sense of loyalty. She woke up after the calamity with no memory of whoe she was or where she belonged. Her journey trying to find herself brought her to Ul'dah, and the Puglist Guild."}> 
+             <LargeDialog text= {"Elisa Astrophel is an excitable Young woman with a fierce sense of loyalty. She woke up after the calamity with no memory of whoe she was or where she belonged. Her journey trying to find herself brought her to Ul'dah, and the Puglist Guild."}> 
          
           </LargeDialog>
          
