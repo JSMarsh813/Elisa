@@ -12,7 +12,7 @@ function FunFacts(){
 
         <MainNavDaisy/>   
        
-        <img src="https://pbs.twimg.com/media/EoseZl3VEAEpx4X?format=jpg&name=large"/>
+        <img src="https://pbs.twimg.com/media/EoseZl3VEAEpx4X?format=jpg&name=large" style={{margin:"auto",maxHeight:"300px"}}/>
         
         <h2 className="text-slate-100 font-black text-center text-3xl  drop-shadow-xl mt-2 font-medium"> Personality</h2>
      

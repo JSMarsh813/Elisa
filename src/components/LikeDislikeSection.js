@@ -1,6 +1,5 @@
 
 import LikesDislikeListItems from '../components/LikesDislikeListItems'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeartCirclePlus } from '@fortawesome/free-solid-svg-icons'
 import { faHeartCircleMinus } from '@fortawesome/free-solid-svg-icons'
 

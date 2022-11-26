@@ -18,7 +18,7 @@ function AboutEli(){
     <MainNavDaisy/>    
 
 
-    <img src="https://pbs.twimg.com/media/FGm1bauUUAMX08-?format=jpg&name=large"/>     
+    <img src="https://pbs.twimg.com/media/FGm1bauUUAMX08-?format=jpg&name=large" style={{margin:"auto",maxHeight:"300px"}}/>     
     
       <div className="mb-10 sectionContainer pt-10">
 
