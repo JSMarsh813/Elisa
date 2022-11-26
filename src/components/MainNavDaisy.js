@@ -22,13 +22,14 @@ const MainNavDaisy = () => {
 
   <div className="navbar-start" 
        >
+        
   
     <a className="btn btn-ghost normal-case text-xl text-red-700 ">
             <img className="h-12 logo" src="https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/a724b9124acc7b5058ed75a31a9c2919/32/256x256.png"/></a>
   </div>
 
 
-  <div className="navbar-center hidden lg:flex  ">
+  <div className="navbar-center flex ml-4 ">
     <ul className="menu menu-horizontal p-0 ">
           
           <li> <Link to="/"><a>Home</a> </Link></li> 
@@ -40,7 +41,7 @@ const MainNavDaisy = () => {
     </ul>
   </div>
   <div className="navbar-end ">
-    <a className="btn ">Get started</a>
+   
   </div>
 </div>
   )

@@ -45,7 +45,7 @@ const DecisionButton =({text}) => {
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
 
-                onClick={() => {alert("hello!")}}
+                onClick={(e) => e.target.innerHTML!="Accept"&& alert("Try Again!")}
                 
                 >
                     

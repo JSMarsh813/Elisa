@@ -22,11 +22,11 @@ const LandingPageIntro =() => {
 
         <img className="mx-auto" src={questEli}/>
 
-        <div className="border-4 border-blue-800 w-full
+        <div className="border-4 border-blue-800 w-full 
        ">
   
             <section             
-            className="flex absolute top-3/4 left-auto w-screen justify-center gap-32">
+            className="flex absolute top-3/4 left-auto w-screen justify-center sm:gap-32">
         {/* !!LATER fix gap smaller screen */}
             
 
@@ -35,7 +35,7 @@ const LandingPageIntro =() => {
                 </div>      
                
 
-                <div className="flex-center mr-10">
+                <div className="flex-center ml-4">
                      <DecisionButton text="Decline"/>
                  </div>
 

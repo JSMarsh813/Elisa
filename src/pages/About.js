@@ -15,7 +15,10 @@ function AboutEli(){
 
     return (
 <div >
-    <MainNavDaisy/>         
+    <MainNavDaisy/>    
+
+
+    <img src="https://pbs.twimg.com/media/FGm1bauUUAMX08-?format=jpg&name=large"/>     
     
       <div className="mb-10 sectionContainer pt-10">
 
