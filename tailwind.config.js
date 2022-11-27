@@ -20,7 +20,7 @@ module.exports = {
       colors: {
         dialogBackground: '#e9decb',
         dialogOutline: '#a79a85',
-        yellowText:'#f7d7ae'
+        yellowText:'rgb(246, 215, 174)'
       },
     },
   },
