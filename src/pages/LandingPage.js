@@ -6,7 +6,7 @@ import LandingPageIntro from '../components/LandingPageIntro';
 function LandingPage(){
 
     return (
-       <div>
+       <div className="content bg-slate-800">
          
 
          <MainNavDaisy/>
