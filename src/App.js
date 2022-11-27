@@ -12,8 +12,8 @@ function App() {
 
      <Routes>
         <Route path="/" element={  <LandingPage/> } />
-        <Route path="aboutEli" element={ <AboutEli/> } />
-        <Route path="FunFacts" element={ <FunFacts/> } />
+        <Route path="/AboutEli" element={ <AboutEli/> } />
+        <Route path="/FunFacts" element={ <FunFacts/> } />
       
       </Routes>
         
