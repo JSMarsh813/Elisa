@@ -3,18 +3,11 @@ import { useState } from 'react';
 const buttonColor={color:'white'}
 const buttonBackground={backgroundColor:'Grey'}
 
-// const handleClick = () => {
-// //    { if (e.target.props.text="Decline")
-//    {
-//         alert("Try again")
-//     }   
-//    }
-
 
 const DecisionButton =({text}) => {
 
     const [isHover, setIsHover] = useState(false);
-
+    
     const handleMouseEnter = () => {
        setIsHover(true);
     };
@@ -34,21 +27,41 @@ const DecisionButton =({text}) => {
         boxShadow: '5px 2px 9px #656565'
     }
 
+    function popUp() {
+        let triggerImage=document.querySelector("#popUpImage")
+
+        if (triggerImage.classList.contains("hidden"))
+        {
+             triggerImage.classList.remove("hidden")}
+
+        else {triggerImage.classList.add("hidden")
+        }
+              console.log(triggerImage.classList)
+    }
+
+    //         if (triggerImage.style.display="none")
+    //     {
+    //          triggerImage.style.display="block"}
+
+    //     else {triggerImage.style.display="none"
+    //     }
+    //           console.log(triggerImage.style)
+    //   }
+
     return ( 
 
    
         <button 
                 className="
-                px-16 py-1 rounded-full text-base text-white" 
+                px-16 py-1 rounded-full text-base text-white popup" 
 
                 style={{...boxStyle,...buttonShadows}}                
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
 
-                onClick={(e) => e.target.innerHTML!="Accept"&& alert("Try Again!")}
-                
-                >
+                onClick={(e) => e.target.innerHTML!="Accept"&& popUp()}>
                     
+              
             {text}
             
             </button>
@@ -57,3 +70,4 @@ const DecisionButton =({text}) => {
 }
 
 export default DecisionButton
+   
